@@ -1,3 +1,4 @@
+import ActionPage from "@/components/Action";
 import Hero from "@/components/Hero";
 import OfferingPage from "@/components/OfferingPage";
 import PricingPage from "@/components/Pricing";
@@ -13,6 +14,7 @@ export default function Home() {
       <OfferingPage />
       <TechStackPage />
       <PricingPage />
+      <ActionPage />
     </main>
   );
 }
