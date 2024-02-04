@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import OfferingPage from "@/components/OfferingPage";
+import PricingPage from "@/components/Pricing";
 import TechStackPage from "@/components/TechStack";
 import WorkPage from "@/components/WorkPage";
 import Image from "next/image";
@@ -11,6 +12,7 @@ export default function Home() {
       <WorkPage />
       <OfferingPage />
       <TechStackPage />
+      <PricingPage />
     </main>
   );
 }
