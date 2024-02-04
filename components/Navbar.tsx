@@ -11,7 +11,7 @@ const Navbar = () => {
                     <div className='flex flex-wrap items-center justify-between py-2 gap-6 md:py-4 md:gap-0 relative'>
                         <div className='relative z-20 w-full flex justify-between lg:w-max md:px-0'>
                             <Link href={"/"} className='flex space-x-2 items-center'>
-                                <span className='text-2xl font-bold text-gray-900'>MVP in 15 Days</span>
+                                <span className='text-2xl font-bold text-gray-900'>SwiftLaunchPad</span>
                             </Link>
                         </div>
 
