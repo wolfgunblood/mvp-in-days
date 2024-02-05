@@ -11,7 +11,7 @@ const WorkPage = () => {
                 </div>
                 {/* <div className='mt-16 flex flex-col md:flex-row gap-2 divide-x divide-y rounded-3xl'> */}
                 <div className='mt-16 grid divide-x divide-y rounded-3xl sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4'>
-                    <Card>
+                    <Card className='cursor-pointer'>
                         <CardHeader>
                             <CardTitle>Speed</CardTitle>
                             <CardDescription>Speed</CardDescription>
@@ -20,7 +20,7 @@ const WorkPage = () => {
                             <p className='text-slate-800'>When building MVP(Minimum Viable Product).Speed is very important and we take pride in our building speed.</p>
                         </CardContent>
                     </Card>
-                    <Card>
+                    <Card className='cursor-pointer'>
                         <CardHeader>
                             <CardTitle className='text-xl font-semibold'>Efficiency</CardTitle>
                             <CardDescription>Efficiency</CardDescription>
@@ -29,7 +29,7 @@ const WorkPage = () => {
                             <p className='text-slate-800'>We not only build build fast but we also make sure we are building scalable products.</p>
                         </CardContent>
                     </Card>
-                    <Card >
+                    <Card className='cursor-pointer'>
                         <CardHeader>
                             <CardTitle className='text-xl font-semibold'>Product Delivery</CardTitle>
                             <CardDescription>Product Delivery</CardDescription>
@@ -38,7 +38,7 @@ const WorkPage = () => {
                             <p className='text-slate-800'>We will develop your MVP in 15 days (more time required depending on the complexity of project).</p>
                         </CardContent>
                     </Card>
-                    <Card >
+                    <Card className='cursor-pointer'>
                         <CardHeader>
                             <CardTitle className='text-xl font-semibold'>Post launch support</CardTitle>
                             <CardDescription>Post launch</CardDescription>

@@ -14,7 +14,7 @@ const TechStackPage = () => {
                 </div>
                 {/* <div className='mt-16 flex flex-col md:flex-row gap-2 divide-x divide-y rounded-3xl'> */}
                 <div className='mt-16 grid divide-x divide-y rounded-3xl sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4'>
-                    <Card>
+                    <Card className='cursor-pointer'>
                         <CardHeader>
                             <CardTitle>
                                 <TbBrandNextjs />
@@ -24,7 +24,7 @@ const TechStackPage = () => {
                             <p className='text-slate-800'>NextJS</p>
                         </CardContent>
                     </Card>
-                    <Card>
+                    <Card className='cursor-pointer'>
                         <CardHeader>
                             <CardTitle>
                                 <SiTypescript />
@@ -34,7 +34,7 @@ const TechStackPage = () => {
                             <p className='text-slate-800'>Typescript</p>
                         </CardContent>
                     </Card>
-                    <Card >
+                    <Card className='cursor-pointer'>
                         <CardHeader>
                             <CardTitle>
                                 <SiJavascript />
@@ -44,7 +44,7 @@ const TechStackPage = () => {
                             <p className='text-slate-800'>Javascript</p>
                         </CardContent>
                     </Card>
-                    <Card >
+                    <Card className='cursor-pointer'>
                         <CardHeader>
                             <CardTitle>
                                 <SiTailwindcss />
@@ -54,7 +54,7 @@ const TechStackPage = () => {
                             <p className='text-slate-800'>TailWind CSS </p>
                         </CardContent>
                     </Card>
-                    <Card >
+                    <Card className='cursor-pointer'>
                         <CardHeader>
                             <CardTitle>
                                 <FaNodeJs />
@@ -64,7 +64,7 @@ const TechStackPage = () => {
                             <p className='text-slate-800'>Node JS</p>
                         </CardContent>
                     </Card>
-                    <Card >
+                    <Card className='cursor-pointer'>
                         <CardHeader>
                             <CardTitle>
                                 <FaReact />
@@ -74,7 +74,7 @@ const TechStackPage = () => {
                             <p className='text-slate-800'>ReactJS</p>
                         </CardContent>
                     </Card>
-                    <Card >
+                    <Card className='cursor-pointer'>
                         <CardHeader>
                             <CardTitle>
                                 <SiSupabase />
@@ -84,7 +84,7 @@ const TechStackPage = () => {
                             <p className='text-slate-800'>Supabase</p>
                         </CardContent>
                     </Card>
-                    <Card >
+                    <Card className='cursor-pointer'>
                         <CardHeader>
                             <CardTitle>
                                 <SiVercel />

@@ -11,7 +11,7 @@ const OfferingPage = () => {
                 </div>
                 {/* <div className='mt-16 flex flex-col md:flex-row gap-2 divide-x divide-y rounded-3xl'> */}
                 <div className='mt-16 grid divide-x divide-y rounded-3xl sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4'>
-                    <Card>
+                    <Card className='cursor-pointer'>
                         <CardHeader>
                             <CardTitle>SaaS Products</CardTitle>
                             <CardDescription>SaaS</CardDescription>
@@ -20,7 +20,7 @@ const OfferingPage = () => {
                             <p className='text-slate-800'>We love SaaS.If you have a SaaS product idea,we will make it happen.</p>
                         </CardContent>
                     </Card>
-                    <Card>
+                    <Card className='cursor-pointer'>
                         <CardHeader>
                             <CardTitle className='text-xl font-semibold'>Web Apps</CardTitle>
                             <CardDescription>Apps</CardDescription>
@@ -29,7 +29,7 @@ const OfferingPage = () => {
                             <p className='text-slate-800'>We can build web applications for you.You just need to have an idea.</p>
                         </CardContent>
                     </Card>
-                    <Card >
+                    <Card className='cursor-pointer'>
                         <CardHeader>
                             <CardTitle className='text-xl font-semibold'>Ai Apps</CardTitle>
                             <CardDescription>AI Apps</CardDescription>
@@ -38,7 +38,7 @@ const OfferingPage = () => {
                             <p className='text-slate-800'>Have an idea for an awesome AI app?We will build it for you quickly and will help you launch.</p>
                         </CardContent>
                     </Card>
-                    <Card >
+                    <Card className='cursor-pointer'>
                         <CardHeader>
                             <CardTitle className='text-xl font-semibold'>Technical Writing</CardTitle>
                             <CardDescription>Writing</CardDescription>
